@@ -2,8 +2,15 @@
   "extends": "airbnb",
   "plugins": [
     "react",
-    "jsx-ally",
+    "jsx-a11y",
     "import"
   ],
+  "rules": {
+    "no-use-before-define" : 0,
+    "no-unused-vars" : 0,
+    "react/jsx-no-undef" :0,
+    "react/prefer-stateless-function" : 0,
+    "react/jsx-filename-extension" : 0
+  },
   "parser":"babel-eslint"
 }
