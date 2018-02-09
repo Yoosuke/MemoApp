@@ -1,15 +1,15 @@
 import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 
+import MemoDetailScreen from './src/screens/MemoDetailScreen';
 import AppBar from './src/compornents/AppBar';
-import MemoListScreen from './src/screens/MemoListScreen';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
         <AppBar />
-        <MemoListScreen />
+        <MemoDetailScreen />
       </View>
     );
   }
